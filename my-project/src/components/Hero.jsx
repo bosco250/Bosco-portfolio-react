@@ -43,7 +43,7 @@ const Hero = () => {
             initial={{x:100,opacity:0}}
             animate={{x:0,opacity:1}}
             transition={{duration:1,delay:1.2}}
-            style={{width:"600px",height:"400px"}} src={profilePic} alt="Profile" className=" border-b-4 border-zinc-800 rounded-2xl" />
+            style={{width:"600px",height:"400px"}} src={profilePic} alt="Profile" className=" lg:border-b-4 border-zinc-800 rounded-2xl" />
           </div>
         </div>
       </div>
