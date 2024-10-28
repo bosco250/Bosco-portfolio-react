@@ -26,7 +26,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className="bg-gradient-to-r from-pink-300 via-slate-500  to-purple-500 bg-clip-text text-4xl tracking-tighter text-transparent">
-              Full stack Developer
+              Front-End Developer
             </motion.span>
             <motion.p
             variants={container(1)}
@@ -43,7 +43,7 @@ const Hero = () => {
             initial={{x:100,opacity:0}}
             animate={{x:0,opacity:1}}
             transition={{duration:1,delay:1.2}}
-            src={profilePic} alt="Profile" className="lg:w-[600px] lg:h-[400px] border-b-4 border-zinc-800 rounded-2xl" />
+            src={profilePic} alt="Profile" className="lg:w-[600px] lg:h-[400px] object-cover border-b-4 border-zinc-800 rounded-2xl" />
           </div>
         </div>
       </div>
